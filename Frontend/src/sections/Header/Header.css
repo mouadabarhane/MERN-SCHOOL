@@ -1,0 +1,68 @@
+
+
+  .textHeader {
+    color : var(--color-azure ) ;
+     margin-top: 0.7em;
+     font-size: 18px;
+     font-weight: bold;
+     text-align: left;
+     flex: 1; 
+     text-align: left;
+     flex: 1;
+ }
+
+.text-container {
+    margin-top: 0.7em;
+    font-size: 8px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row; /* Ensure elements are in a row (horizontal) */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-text {
+    /* Add styling for the left text here */
+    text-align: left;
+
+  }
+  
+  .right-text {
+    /* Add styling for the right text here */
+    text-align: right;
+
+  }
+
+  .login-button {
+    background-color: var(--color-darkest); /* Change the background color */
+    outline: none; /* Remove the default focus outline */
+    color: var(--color-azure);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: -6px;
+    font-weight: bold;
+    font-size: 11px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    border-color: var(--color-azure);
+}
+.login-button:focus , .login-button:hover{
+    background-color: var(--color-dark);
+    color: var(--color-azure); /* Change the background color */
+    outline: none; /* Remove the default focus outline */
+    border-color: var(--color-blue-light);
+}
+.login-button:active{
+    background-color: var(--color-darkest); /* Change the background color */
+    outline: none; /* Remove the default focus outline */
+    color: var(--color-azure);
+}
+
+.login-icon {
+    margin-right: 10px;
+}
+.login-text {
+    /* Add margin to the left of the text */
+    margin-left: 5px;
+}

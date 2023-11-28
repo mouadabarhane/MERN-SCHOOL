@@ -1,0 +1,124 @@
+/* ContactForm.css */
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(rgba(31, 33, 34, 0),rgba(31, 33, 34, 0), rgba(31, 33, 34, 0),rgba(31, 33, 34, 0)) ;
+    border-radius: calc(var(--distance-primary)/3);
+    
+
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: calc(var(--distance-primary)/3);
+    color: var(--color-azure);
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-bottom: calc(var(--distance-primary)/3);
+    color: var(--color-blue-light);
+  }
+  
+  /* Base styles for input fields and textarea */
+.contact-form input[type="text"],
+.contact-form input[type="number"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: calc(var(--distance-primary)/4);
+  margin-bottom: calc(var(--distance-primary)/2);
+  border: 1px solid var(--color-azure);
+  border-radius: 4px;
+  font-size: calc(var(--distance-primary)/2);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus styles for input fields and textarea */
+.contact-form input[type="text"]:focus,
+.contact-form input[type="number"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: none; /* Remove the default focus outline */
+  border-color: var(--color-primary); /* Change the border color on focus */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on focus */
+}
+
+/* Placeholder text styling */
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="number"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--color-gray); /* Adjust the color */
+}
+
+/* Hover effects for input fields and textarea */
+.contact-form input[type="text"]:hover,
+.contact-form input[type="number"]:hover,
+.contact-form input[type="email"]:hover,
+.contact-form textarea:hover {
+  border-color: var(--color-hover); /* Change the border color on hover */
+}
+
+/* Validation styling */
+.contact-form input[type="text"].valid,
+.contact-form input[type="number"].valid,
+.contact-form input[type="email"].valid,
+.contact-form textarea.valid {
+  border-color: var(--color-success); /* Styling for valid input */
+}
+
+.contact-form input[type="text"].invalid,
+.contact-form input[type="number"].invalid,
+.contact-form input[type="email"].invalid,
+.contact-form textarea.invalid {
+  border-color: var(--color-error); /* Styling for invalid input */
+}
+
+
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+    /* Add margin to the message input */
+    margin-bottom: calc(var(--distance-primary)/2);
+  }
+  .message { /* Set the width to 100% to make it expand to the container's width */
+  height: 80px; /* Set the desired height in pixels */
+  margin-bottom: calc(var(--distance-primary)/2);
+  }
+  
+  .contact-form button {
+    background-color: rgba(0, 0, 0, 0.7); /* Change the background color */
+    
+    color: var(--color-azure);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: -6px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+   
+    align-items: center;
+    text-align: center;
+    border-color: var(--color-azure);
+  }
+  
+  .contact-form button:focus , button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--color-azure); /* Change the background color */
+    outline: none; /* Remove the default focus outline */
+    border-color: var(--color-blue-light);
+  }
+  .contact-form button:active {
+    background-color: var(--color-darkest); /* Change the background color */
+    outline: none; /* Remove the default focus outline */
+    color: var(--color-azure);
+  }
+  

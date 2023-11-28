@@ -1,0 +1,125 @@
+.SectionTwo {
+    background: linear-gradient(rgba(0, 0, 0, 1) , rgba(31, 33, 34, 0.01) ,rgba(31, 33, 34, 0.01) , rgba(31, 33, 34, 0.01) , rgba(0, 0, 0, 1) ), url('../../assets/images/mapm.png'); /* Change the background color */
+    
+    color: var(--color-azure);
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    background-repeat: no-repeat;
+     background-size: cover; 
+     background-attachment: fixed;
+     justify-content: center;
+    border-color: var(--color-azure);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    box-shadow: 0 0 5px 2px var(--color-azure);
+    
+   
+}
+.SectionTwoo {
+    background-color: rgba(0, 0, 0, 0.7); /* Change the background color */
+    
+    color: var(--color-azure);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+   
+    border-color: var(--color-azure);
+    box-shadow: 0 0 1px 1px var(--color-azure);
+    animation: example 8s ;
+}
+.SectionTwooo {
+  background-color: rgba(0, 0, 0, 0.8); /* Change the background color */
+    
+    color: var(--color-azure);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+   text-align: center;
+    border-color: var(--color-azure);
+    box-shadow: 0 0 1px 1px var(--color-azure);
+    
+}
+.legend{
+    background-color: var(--color-azure);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+h2 {
+    font-size: 24px;          /* Adjust the font size as needed */
+    font-weight: bold;        /* Make the text bold */
+    color: var(--color-azure);              /* Text color */
+    margin-bottom: 10px; 
+    text-align: center;    /* Spacing below the heading */
+  }
+  h4 {
+    font-size: 18px;          /* Adjust the font size as needed */
+    font-weight: bold;        /* Make the text bold */
+    color: var(--color-azure);              /* Text color */
+    margin-bottom: 10px; 
+    text-align: center;   /* Spacing below the heading */
+  }
+
+
+  hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, var(--color-darkest), var(--color-darkest), var(--color-azure), var(--color-darkest), var(--color-darkest));
+    
+  }
+  .part{
+    background: linear-gradient(rgba(0, 0, 0, 1) , rgba(31, 33, 34, 0.7)  , rgba(0, 0, 0, 1) ), url('../../assets/images/lrt.jpg'); /* Change the background color */
+    
+    color: var(--color-azure);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    background-size: cover; /* Ensures the image covers the entire div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center;
+    border-color: var(--color-azure);
+    box-shadow: 0 0 1px 1px var(--color-azure);
+    animation: example 8s ;
+    display: flex;
+    text-align: center;
+
+  justify-content: center; /* Center vertically */
+  align-items: center;
+  }
+
+
+.text-div {
+  margin-bottom: 20px;
+ 
+
+}
+
+/* CSS for the small info box */
+.info-box {
+ 
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+p {
+  font-size: 16px;     /* Margin for top, right, bottom, and left sides */
+}
+@keyframes example {
+  0%{
+    transform: translateY(-50px);
+  }
+   20%, 100% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(-30px); /* Adjust the bounce height as needed */
+  }
+  
+}

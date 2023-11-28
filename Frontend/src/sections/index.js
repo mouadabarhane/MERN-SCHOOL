@@ -1,0 +1,6 @@
+export {default as Header} from './Header/Header'
+export {default as Navbar} from './Navbar/Navbar'
+export {default as FirstSection} from './FirstSection/FirstSection'
+export {default as LoginSection} from './LoginSection/LoginSection'
+export {default as Section2} from './Section2/Section2'
+export {default as Section3} from './Section3/Section3'

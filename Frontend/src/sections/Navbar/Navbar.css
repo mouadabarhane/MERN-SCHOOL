@@ -1,0 +1,40 @@
+.navbar {
+    background-color: var(--color-dark);
+    box-shadow: 0 0 5px 2px var(--color-azure);
+}
+.textNavIteam {
+    color : var(--color-azure);
+    font-size: 18px;          /* Adjust the font size as needed */
+    font-weight: bold;
+  
+}
+
+.dropdown-color {
+    background-color: transparent;
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for the links */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px 15px;
+}
+
+.navbar a:active {
+    color: var(--color-dark) ; /* Use a color value or a color code */
+}
+.navbar a:hover {
+    color: var(--color-blue-light) ; /* Use a color value or a color code */
+}
+.navbar a:focus {
+    color: var(--color-primary) ; /* Use a color value or a color code */
+}
+.dropdown-item  a:active {
+    color: var(--color-azure) ; /* Use a color value or a color code */
+}
+
+.dropdown-item  a:hover {
+    color: var(--color-azure) ; /* Use a color value or a color code */
+}
+.dropdown-item{
+    color: var(--color-azure) ;
+    font-size: 16px;          /* Adjust the font size as needed */
+    font-weight: bold;
+}

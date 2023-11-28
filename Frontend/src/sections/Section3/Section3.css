@@ -1,0 +1,11 @@
+.SectionOne{
+    background-color: var(--color-dark); /* Change the background color */
+    
+    color: var(--color-azure);
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  
+    border-color: var(--color-azure);
+}
